@@ -1,2 +1,3 @@
 # js-pagination
-# js-pagination
+<!-- # js-pagination
+ -->
