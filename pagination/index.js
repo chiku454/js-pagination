@@ -15,7 +15,7 @@ function fetchAPI(){
 }
   
 var pageIndex = 0;
-var pageSize = 5;
+var pageSize = 10;
 
 fetchAPI();
 
@@ -28,7 +28,7 @@ function drawTable(paginateData){
     const trH = document.createElement('tr');
     for(let key in tHeading){
         let th = document.createElement('th');
-        let thText = document.createTextNode(key);
+        let thText = document.createTextNode(key.toUpperCase());
         th.appendChild(thText)
         trH.appendChild(th)
     }
